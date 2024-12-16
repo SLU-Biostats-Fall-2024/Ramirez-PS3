@@ -134,7 +134,7 @@ batmat<-xtabs(tick_num~age+sex,data=bats)
 chisq.test(batmat)
 ```
 
-###  
+### 
 
 We now know that there is not sufficient evidence to reject the null hypothesis. Though there looks to be a correlation, we cannot determine if the differences are caused by these variables yet.
 
